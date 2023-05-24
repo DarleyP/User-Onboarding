@@ -53,10 +53,10 @@ const onSubmit = (evt) => {
                     />
                 </label>
                 <label>
-                    <input type="submit" value="Create a Friend"/>
+                    <input id="subBtn" type="submit" value="Create a Friend"/>
                 </label>
             </form>
-            <div className="errors.div">
+            <div className="errors.div" id="errorsCy">
             <p>{errors.username}</p>
             <p>{errors.email}</p>
             <p>{errors.password}</p>
